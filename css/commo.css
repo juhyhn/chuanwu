@@ -1,0 +1,146 @@
+div,p,h1,h2,h3,h4,h5,h6,body,ul,ol,img,strong,input,b,table,hr,dl,td{margin: 0;padding: 0;font-weight: normal;}
+    div,p,ul{font-size: 14px;}
+	  ol,ul,dl,td{list-style: none;text-indent: 0;}
+	  a{text-decoration:none;color: #000000;}
+	  a:hover{color: #8491C5;}
+	  em{font-style: normal;}
+	  .clearfix:after{
+		content:'';
+		display: block;
+		clear:both;
+	  }
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.cearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.w1000{
+	width: 1000px;
+	margin: 0 auto;
+}
+.head{
+	width: 100%;
+	height: 107px;
+	border-top:5px solid #09238B;
+}
+.head .content{
+	position: relative;
+}
+.head .logo{
+	width: 353px;
+	height: 64px;
+	margin-top: 13px;
+	margin-right: 80px;
+}
+.head .logo img{
+	width: 100%;
+	height: 100%;
+}
+.head ul li{
+	float: left;
+	margin-left: 25px;
+	margin-top: 60px;
+}
+.head p{
+	width: 137px;
+	height: 22px;
+	background-color: #09238B;
+	position: absolute;
+	top: 0;right: 0;
+	text-align: center;
+	border-radius: 0px 0px 4px 4px;
+	font-size: 12px;
+}
+.head p a{
+	color: #fff;
+}
+.head p em{
+	color: #fff;
+	margin: 0 17px;
+}
+.footer{
+	width: 100%;
+	height: 292px;
+	border-top:3px solid #09238B;
+	background-color: #5F5F5F;
+}
+.footer .content{
+	height: 292px;
+	padding-top: 17px;
+	box-sizing: border-box;
+}
+.footer .biaoti{
+	height: 42px;
+	line-height: 42px;
+	border-bottom: 1px solid #888;
+	margin-bottom: 11px;
+}
+.footer .biaoti span{
+	display: inline-block;
+	width: 145px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.footer .biaoti span a{
+	color: #fff;
+}
+.footer td{
+	width: 147px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+}
+.footer td a{
+	color: #a3a3a3;
+}
+.footer .bian{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 2px;
+	background-image: linear-gradient(to right,#5F5F5F,#000,#5F5F5F);
+}
+.footer .banpuan p{
+	font-size: 12px;
+}
+.footer .banpuan p a{
+	color: #CBCBCB;
+}
+.footer .banpuan .p1 span{
+	margin-right: 16px;
+}
+.footer .banpuan .p2 em{
+	color: #CBCBCB;
+	margin: 0 9px;
+}
+.footer .content{
+	position: relative;
+}
+.footer .erweima{
+	width: 193px;
+	height: 114px;
+	position: absolute;
+	top: 80px;right: 0;
+}
+.footer .erweima .img{
+	width: 84px;
+	height: 84px;
+}
+.footer .erweima .img img{
+	width: 100%;
+	height: 100%;
+}
+.footer .erweima .left,.right{
+	text-align: center;
+}
+.footer .erweima span{
+	color: #bfbfbf;
+	font-size: 12px;
+	line-height: 30px;
+}
